@@ -1,0 +1,14 @@
+#animation{
+    width: 300px;
+    animation: fadeIn 3s ease 0s 1 forwards;
+}
+@keyframes fadeIn{
+    0%{
+        background-color: transparent;
+        opacity: 0;
+    }
+    100%{
+        background-color: aqua;
+        opacity: 1;
+    }
+}
